@@ -1,0 +1,30 @@
+{
+  "name":"addheader",
+  "fullName":"Add Header",
+  "version":"0.0.1",
+  "keywords": [
+       "html",
+       "customization",
+       "layout"
+   ],
+   "description":"Add your own HTML header",
+   "joshfire":{
+    "images":{
+        
+      },
+      "hooks":["startfile"],
+      "options":{
+        "form":[{
+          "key":"headerhtml",
+          "type":"textarea"
+        }],
+      "schema":{
+        "headerhtml":{
+          "type":"string",
+          "title":"Header HTML",
+          "description":"This will be inserted at the beginning of the body."
+        }
+      }
+    }
+   }
+}
