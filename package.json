@@ -1,33 +1,33 @@
 {
-  "name":"addheader",
-  "fullName":"Add Header",
-  "version":"0.1.0",
+  "name": "addheader",
+  "fullName": "Add Header",
+  "version": "0.1.1",
   "keywords": [
-       "html",
-       "customization",
-       "layout"
-   ],
-   "description":"Add your own HTML header",
-   "devonly": true,
-   "joshfire":{
-    "images":{
-        "small":"marketing/image-small.png",
-        "big":"marketing/image-small.png"
-      },   
-      "hooks":["startfile"],
-      "options":{
-        "form":[{
-          "key":"headerhtml",
-          "type" : "ace",
-          "aceMode" : "html"
-        }],
-      "schema":{
-        "headerhtml":{
-          "type":"string",
-          "title":"Header HTML",
-          "description":"This will be inserted at the beginning of the body."
+    "html",
+    "customization",
+    "layout"
+  ],
+  "description": "Add your own HTML header",
+  "devonly": true,
+  "joshfire": {
+    "images": {
+      "small": "marketing/image-small.png",
+      "big":"marketing/image-small.png"
+    },   
+    "hooks": ["startfile"],
+    "options": {
+      "form": [{
+        "key": "headerhtml",
+        "type": "ace",
+        "aceMode": "html"
+      }],
+      "schema": {
+        "headerhtml": {
+          "type": "string",
+          "title": "Header HTML",
+          "description": "This will be inserted at the beginning of the body."
         }
       }
     }
-   }
+  }
 }

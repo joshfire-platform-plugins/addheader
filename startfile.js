@@ -4,7 +4,8 @@
  */
 define([], function () {
   return function (runtime, params, callback) {
-    params.content = runtime.bodyPrepend(params.content, headerhtml);
+    params.content = runtime.bodyPrepend(
+      params.content, params.options.headerhtml || '');
     callback(null, params.content);
   };
 });
